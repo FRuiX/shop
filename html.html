@@ -1,0 +1,2526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>慕淘网</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="head" id="top">
+    	<!-- 顶部 -->
+    	<div class="top">
+            <!-- 登录注册页面 -->
+    		<div class="left">
+    		    <a href="#" class="loginLink">亲，请登录</a>
+                <div class="link">
+                    <a href="#">免费注册</a>
+                    <a href="#">手机逛慕淘</a>
+                </div>
+    	    </div>
+
+            <!-- 导航条部分 -->
+            <div class="right">
+        	    <ul>
+                <li class="first"><a href="#">我的慕淘<img src="img/icon/21.png"></a>
+                    <ul class="second">
+                        <li ><a href="#">已买到的宝贝</a></li>
+                        <li ><a href="#">我的足迹</a></li>
+                    </ul>
+                 </li>   
+                 <li class="first"><a href="#">收藏夹<img src="img/icon/21.png"></a>
+                     <ul class="second">
+                        <li><a href="#">收藏的宝贝</a></li>
+                        <li><a href="#">收藏的店铺</a></li>
+                    </ul>   
+                 </li>   
+                 <li><a href="#">商品分类</a></li>   
+                 <li class="first"><a href="#">卖家中心<img src="img/icon/21.png"></a>
+                     <ul class="second">
+                        <li><a href="#">免费开店</a></li>
+                        <li><a href="#">已卖出的宝贝</a></li>
+                        <li><a href="#">出售中的宝贝</a></li>
+                        <li><a href="#">卖家服务市场</a></li>
+                        <li><a href="#">卖家培训中心</a></li>
+                        <li><a href="#">体验中心</a></li>
+                    </ul>
+                 </li>   
+                 <li class="first"><a href="#">联系客服<img src="img/icon/21.png"></a>
+                     <ul class="second">
+                        <li><a href="#">消费者客服</a></li>
+                        <li><a href="#">卖家客服</a></li>
+                    </ul>
+                 </li>   
+                </ul>
+            </div>
+    	</div>
+    	<!-- 弹出框 -->
+            <div class="mask dis-none"></div>
+            <div class="item dis-none">
+                <div class="span">
+                    <span class="clicked cursor__pointer" id="loginLink" >登录</span>
+                    <span id="regist" class="cursor__pointer">注册</span>
+                    <span id="close" class="close cursor__pointer">x</span>
+                </div>
+                <div class="login">
+                    <div class="input">
+                        <input type="text" name="usename" placeholder="请输入登录邮箱/手机号">
+                        <p class="warning vis-hid">请输入正确的邮箱/手机号</p>
+                        <input type="password" name="psw" placeholder="6-16位密码 区分大小写 不能用空格">
+                        <p class="warning vis-hid">请输入6-16位密码 区分大小写 不能用空格</p>
+                    </div>
+                    <input type="checkbox" name="checkbox"><span class='cursor__pointer'>下次自动登录</span>
+                    <a href="#">忘记密码</a>
+                    <input type="submit" name="buttom" value="登录" class="submit">
+                    <div class="logo">
+                        <span class="icon icon-xinlang"></span>
+                        <span class="icon icon-wechat"></span>
+                        <spnn class="icon icon-qq"></span>
+                    </div>
+                </div>
+                <div class="regist dis-none">
+                    <div>
+                        <div class="input">
+                        <input type="text" name="user" placeholder="请输入登录邮箱/手机号">
+                        <p class="warning vis-hid">请输入正确的邮箱/手机号</p>
+                        <input type="text" name="verify" class="verify">
+                        <img class="verify-img" src="img/verify.png">
+                        <p class="warning vis-hid">验证码错误</p>
+                    </div>
+                    <input type="submit" name="buttom" value="登录" class="submit">
+                    <div class="logo">
+                        <span class="icon icon-xinlang"></span>
+                        <span class="icon icon-wechat"></span>
+                        <spnn class="icon icon-qq"></span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        <!-- logo区 -->
+        <div class="logo">
+             <div class="moshop">
+                 <img src="img/logo.png">
+             </div>
+             <div class="search">
+                 <input class="search-bar" type="text" name="search" placeholder="灵魂美食一元抢">
+                 <button class="ser-button cursor__pointer">搜索</button>
+             </div>
+             <div class="cart cursor__pointer">
+                 <span class="cart-img"></span>
+                 <span class="cart-text">购物车 | &nbsp;0</span>
+                 <span class="arrow"></span>
+                 <div class="cart-detail dis-none">
+                     <div class="detail-banner">最新加入的商品</div>
+                     <ul class="detail">
+                         <li><img src="img/cart/1.png">
+                             <p>adidas 训练 男子<span>x</span><br/>¥331 x 1</p>
+                         </li>
+                         <li><img src="img/cart/2.png">
+                             <p>玉兰油多效修护套装<span>x</span><br/>¥199 x 2</p>
+                         </li>
+                         <li><img src="img/cart/3.png">
+                             <p>Apple iPhone7(A1660)<span>x</span><br/>¥6188 x 1</p>
+                         </li>
+                         <li><img src="img/cart/4.png">
+                             <p>飞利浦面条机 hr230/31<span>x</span><br/>¥659 x 1</p>
+                         </li>
+                         <li><img src="img/cart/5.png">
+                             <p>罗琳G29 力反馈方向<span>x</span><br/>¥2998 x 1</p>
+                         </li>
+                         <li><img src="img/cart/1.png">
+                             <p>adidas 训练 男子<span>x</span><br/>¥331 x 1</p>
+                         </li>
+                         <li><img src="img/cart/2.png">
+                             <p>玉兰油多效修护套装<span>x</span><br/>¥199 x 1</p>
+                         </li>
+                         <li><img src="img/cart/3.png">
+                             <p>Apple iPhone7(A1660)<span>x</span><br/>¥6188 x 1</p>
+                         </li>
+                         <li><img src="img/cart/4.png">
+                             <p>飞利浦面条机 hr230/31<span>x</span><br/>¥659 x 1</p>
+                         </li>
+                         <li><img src="img/cart/5.png">
+                            <p>罗琳G29 力反馈方向<span>x</span><br/>¥2998 x 1</p>
+                         </li>
+                     </ul>
+                     <div class="detail-number">
+                         <p class="goods-toge">共 10 件商品<br/>共计0.00元</p>
+                         <p class="go-cart">去购物车</p>  
+                     </div>   
+                 </div>
+
+             </div>
+        </div>
+    </div>
+    <!-- 导航区 -->
+    <div class="navigation">
+        <ul class="nav-li cursor__pointer">
+            <li>数码城</li>
+            <li>天黑黑</li>
+            <li>团购</li>
+            <li>发现</li>
+            <li>二手特价</li>
+            <li>名品汇</li>
+        </ul>
+    </div>
+    <!-- banner区 -->
+    <div class="banner">
+        <div class="classify">
+            <div class="cla-title">
+                <img src="img/icon/18.png">
+                <span>商品分类</span>
+            </div>
+            <ul class="cla-list">
+                <li class="my__item">
+                    家用电器<span>></span>
+                    <div class="cla-second">
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li >手机 </li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul  class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="my__item">
+                    手机、运营商、数码
+                    <span>></span>
+                    <div class="cla-second">
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li >手机 </li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul  class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="my__item">
+                    电脑、办公<span>></span>
+                    <div class="cla-second">
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>手机维修</li>
+                            <li>手机维修</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li >手机 </li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul  class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="my__item">
+                    家居、家具、家装、厨具<span>></span>
+                    <div class="cla-second">
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li >手机 </li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>                       
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul  class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="my__item">
+                    男装、女装、童装、内衣<span>></span>
+                    <div class="cla-second">
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li >手机 </li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>                       
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul  class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="my__item">
+                    化妆、清洁、宠物<span>></span>
+                    <div class="cla-second">
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li >手机 </li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>                       
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul  class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="my__item">
+                    运动户外、手表<span>></span>
+                    <div class="cla-second">
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li >手机 </li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul  class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="my__item">
+                    汽车、汽车用品<span>></span>
+                    <div class="cla-second">
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li >手机 </li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>                       
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul  class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="my__item">
+                    母婴、玩具乐器<span>></span>
+                    <div class="cla-second">
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li >手机 </li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>                       
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul  class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="my__item">
+                    食品、酒类、生鲜、特产<span>></span>
+                    <div class="cla-second">
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li >手机 </li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>                       
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul  class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="my__item">
+                    医药保健<span>></span>
+                    <div class="cla-second">
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li >手机 </li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>                       
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul  class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="my__item">
+                    图书、音像、电子书<span>></span>
+                    <div class="cla-second">
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li >手机 </li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>                       
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul  class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="my__item">
+                    彩票、旅行、充值、票务<span>></span>
+                    <div class="cla-second">
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li >手机 </li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul  class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="my__item">
+                    理财、众筹、白条、保险<span>></span>
+                    <div class="cla-second">
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li >手机 </li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul  class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                        <ul class="goods-link">
+                            <li class="bold">电器</li>
+                            <li>手机</li>
+                            <li>对讲机</li>
+                            <li>以旧换新</li>
+                            <li>手机维修</li>
+                            <li>充话费</li>
+                            <li>充流量</li>
+                            <li>170选号</li>
+                            <li>化妆品</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="sowing">
+            <div class="img"><img src="img/focus-carousel/1.png"></div>
+            <div class="img"><img src="img/focus-carousel/1.jpg"></div>
+            <div class="img"><img src="img/focus-carousel/2.jpg"></div>
+            <div class="img"><img src="img/focus-carousel/3.jpg"></div>
+            <div class="img"><img src="img/focus-carousel/4.jpg"></div>
+            <div class="pre cursor__pointer"><img src="img/focus-carousel/pre.png"></div>
+            <div class="pre2 cursor__pointer"><img src="img/focus-carousel/pre2.png"></div>
+            <div class="dots">
+                <span class="dots-active cursor__pointer"></span>
+                <span class="cursor__pointer"></span>
+                <span class="cursor__pointer"></span>
+                <span class="cursor__pointer"></span>
+                <span class="cursor__pointer"></span>
+            </div>
+        </div>
+        <div class="service">
+            <div class="news">
+                <p>
+                    <a href="#" class="red-title">慕快报</a>
+                    <a href="#" class="more">更多></a>
+                </p>
+                <ul class="news-text">
+                    <li><a href="#">[特惠]精选图书每满150减50</a></li>
+                    <li><a href="#">[公告]因广东图书仓搬仓配送延迟</a></li>
+                    <li><a href="#">[特惠]爆款手机12期免息 抽奖赢电视</a></li>
+                    <li><a href="#">[公告]广东、福建受台风影响配送延迟</a></li>
+                    <li><a href="#">[特惠]大闸蟹领券满398减198</a></li>
+                </ul>
+            </div>
+            <div class="icon-link">
+                <ul class="cursor__pointer">
+                    <li><img src="img/icon/1.png"><span>话费</span></li>
+                    <li><img src="img/icon/2.png"><span>机票</span></li>
+                    <li><img src="img/icon/3.png"><span>电影票</span></li>
+                    <li><img src="img/icon/4.png"><span>游戏</span></li>
+                </ul>
+                <ul class="cursor__pointer">
+                    <li><img src="img/icon/5.png"><span>彩票</span></li>
+                    <li><img src="img/icon/6.png"><span>加油卡</span></li>
+                    <li><img src="img/icon/7.png"><span>酒店</span></li>
+                    <li><img src="img/icon/8.png"><span>火车票</span></li>
+                </ul>
+                <ul class="cursor__pointer">
+                    <li><img src="img/icon/9.png"><span>众筹</span></li>
+                    <li><img src="img/icon/10.png"><span>理财</span></li>
+                    <li><img src="img/icon/11.png"><span>礼品卡</span></li>
+                    <li><img src="img/icon/12.png"><span>白条</span></li>
+                </ul>
+            </div>
+            <div class="pic">
+                <img src="img/ad.png">
+            </div>
+        </div>
+    </div>
+    <!-- 楼层区 -->
+    <div class="F1" id="F1">
+        <div class="f-cloth">
+            <div class="f-logo">1F</div>
+            <span>服装箱包</span>
+        </div>
+        <div class="f1-classify cursor__pointer">
+            <span class="major hover position-relative">大牌
+                <img class="" src="img/floor-arrow.png">
+            </span>
+            <span class="devide">|</span>
+            <span class="men hover position-relative">&nbsp;男装&nbsp;
+                <img class="dis-none" src="img/floor-arrow.png">
+            </span>
+            <span class="devide">|</span>
+            <span class="women hover position-relative">&nbsp;女装&nbsp;
+                <img class="dis-none" src="img/floor-arrow.png">
+            </span>
+        </div>
+    </div>
+    <div class="my-f1">
+        <div class="goods clearfix">
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/8.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/6.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/4.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/2.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/1.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/3.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/5.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/7.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/9.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/2.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/4.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/6.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>       
+        </div>
+        <div class="goods dis-none clearfix">
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/8.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/1.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/9.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/8.jpg">
+                </div>
+                <div class="descrip">
+                a    didas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+        </div>
+        <div class="goods dis-none clearfix">
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/6.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/5.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div class="F2" id="F2">
+        <div class="f-cloth">
+            <div class="f-logo">2F</div>
+            <span>个护美妆</span>
+        </div>
+        <div class="f2-classify cursor__pointer">
+            <span class="hot2 hover position-relative">热门
+                <img class="" src="img/floor-arrow.png">
+            </span>
+            <span class="devide">|</span>
+            <span class="expensive hover position-relative">国际大牌
+                <img class="dis-none" src="img/floor-arrow.png">
+            </span>
+            <span class="devide">|</span>
+            <span class="famous hover position-relative">国际名品
+                <img class="dis-none" src="img/floor-arrow.png">
+            </span>
+        </div>
+    </div>
+    <div class="my-f2">
+        <div class="goods clearfix">
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/2.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/3.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/2.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/4.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/5.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/1.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/3.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/5.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/9.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/8.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/1.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/4.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>       
+        </div>
+        <div class="goods dis-none clearfix">
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/4.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/2.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/1.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/3.jpg">
+                </div>
+                <div class="descrip">
+                a    didas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+        </div>
+        <div class="goods dis-none clearfix">
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/6.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/6.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div class="F3" id="F3">
+        <div class="f-cloth">
+            <div class="f-logo">3F</div>
+            <span>手机通讯</span>
+        </div>
+        <div class="f3-classify cursor__pointer">
+            <span class="hot3 hover position-relative">热门
+                <img class="" src="img/floor-arrow.png">
+            </span>
+            <span class="devide">|</span>
+            <span class="wondeful hover position-relative">品质优选
+                <img class="dis-none" src="img/floor-arrow.png">
+            </span>
+            <span class="devide">|</span>
+            <span class="new hover position-relative">新机尝鲜
+                <img class="dis-none" src="img/floor-arrow.png">
+            </span>
+        </div>
+    </div>
+    <div class="my-f3">
+        <div class="goods clearfix">
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/6.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/1.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/8.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/1.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/5.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/2.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/1.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/7.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/7.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/9.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/1.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/8.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>       
+        </div>
+        <div class="goods dis-none clearfix">
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/5.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/3.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/1.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/2.jpg">
+                </div>
+                <div class="descrip">
+                a    didas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+        </div>
+        <div class="goods dis-none clearfix">
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/6.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/9.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div class="F4" id="F4">
+        <div class="f-cloth">
+            <div class="f-logo">4F</div>
+            <span>家用电器</span>
+        </div>
+        <div class="f4-classify cursor__pointer">
+            <span class="hot4 hover position-relative">热门
+                <img class="" src="img/floor-arrow.png">
+            </span>
+            <span class="devide">|</span>
+            <span class="home-appliance hover position-relative">大家电
+                <img class="dis-none" src="img/floor-arrow.png">
+            </span>
+            <span class="devide">|</span>
+            <span class="life-appliance hover position-relative">生活电器
+                <img class="dis-none" src="img/floor-arrow.png">
+            </span>
+        </div>
+    </div>
+    <div class="my-f4">
+        <div class="goods clearfix">
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/9.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/8.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/7.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/6.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/5.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/4.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/3.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/2.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/1.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/2.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/3.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/4.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>       
+        </div>
+        <div class="goods dis-none clearfix">
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/5.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/6.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/7.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/8.jpg">
+                </div>
+                <div class="descrip">
+                a    didas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+        </div>
+        <div class="goods dis-none clearfix">
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/9.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/1.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div class="F5" id="F5">
+        <div class="f-cloth">
+            <div class="f-logo">5F</div>
+            <span>电脑数码</span>
+        </div>
+        <div class="f5-classify cursor__pointer">
+            <span class="hot5 hover position-relative">热门
+                <img class="" src="img/floor-arrow.png">
+            </span>
+            <span class="devide">|</span>
+            <span class="computer hover position-relative">电脑平板
+                <img class="dis-none" src="img/floor-arrow.png">
+            </span>
+            <span class="devide">|</span>
+            <span class="video hover position-relative">潮流影音
+                <img class="dis-none" src="img/floor-arrow.png">
+            </span>
+        </div>
+    </div>
+    <div class="my-f5 padd-b">
+        <div class="goods clearfix">
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/7.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/3.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/1.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/2.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/5.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/6.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/8.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/9.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/8.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/6.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/3.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/1.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>       
+        </div>
+        <div class="goods dis-none clearfix">
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/2.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/5.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/8.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/3.jpg">
+                </div>
+                <div class="descrip">
+                a    didas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+        </div>
+        <div class="goods dis-none clearfix">
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/7.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+            <div class="f1-one">
+                <div class="picture">
+                    <img src="img/floor/4.jpg">
+                </div>
+                <div class="descrip">
+                    adidas 训练 男子 外套
+                </div>
+                <div class="price">
+                    ¥225
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!-- 友情链接区 -->
+    <div class="link-box clearfix">
+        <ul>
+            <li class="clearfix link-box-list">
+                <div class="link-title">消费者保障
+                </div>
+                <ul>
+                    <li class="link-text"><a href="#">保障范围</a></li>
+                    <li class="link-text"><a href="#">退货退款流程</a></li>
+                    <li class="link-text"><a href="#">服务中心</a></li>
+                    <li class="link-text"><a href="#">更多特殊服务</a></li>
+                </ul>
+            </li>
+            <li class="clearfix link-box-list">
+                <div class="link-title">新手上路
+                </div>
+                <ul>
+                    <li class="link-text"><a href="#">新手专区</a></li>
+                    <li class="link-text"><a href="#">消费提示</a></li>
+                    <li class="link-text"><a href="#">交易安全</a></li>
+                    <li class="link-text"><a href="#">24小时在线帮助</a></li>
+                    <li class="link-text"><a href="#">免费开店</a></li>
+                </ul>
+            </li>
+            <li class="clearfix link-box-list">
+                <div class="link-title">付款方式
+                </div>
+                <ul>
+                    <li class="link-text"><a href="#">快捷支付</a></li>
+                    <li class="link-text"><a href="#">信用卡</a></li>
+                    <li class="link-text"><a href="#">余额包</a></li>
+                    <li class="link-text"><a href="#">蜜蜂花啊</a></li>
+                    <li class="link-text"><a href="#">货到付款</a></li>
+                </ul>
+            </li>
+            <li class="clearfix link-box-list">
+                <div class="link-title">慕淘特色
+                </div>
+                <ul>
+                    <li class="link-text"><a href="#">手机慕淘</a></li>
+                    <li class="link-text"><a href="#">慕淘信</a></li>
+                    <li class="link-text"><a href="#">大众评审</a></li>
+                    <li class="link-text"><a href="#">B格指南</a></li>
+                </ul>
+            </li>
+        </ul>       
+    </div>
+    <!-- 底部 -->
+    <div class="bottom">
+        <ul class="clearfix bottom-ul">
+            <li  class="bottom-list"><a href="#">关于慕淘</a></li>
+            <li  class="bottom-list"><a href="#">合作伙伴</a></li>
+            <li  class="bottom-list"><a href="#">营销中心</a></li>
+            <li  class="bottom-list"><a href="#">廉政举报</a></li>
+            <li  class="bottom-list"><a href="#">联系客服</a></li>
+            <li  class="bottom-list"><a href="#">开放平台</a></li>
+            <li  class="bottom-list"><a href="#">征程英才</a></li>
+            <li  class="bottom-list"><a href="#">网站地图</a></li>
+            <li  class="bottom-list"><a href="#">法律声明</a></li>
+            <li  class="bottom-list"><a href="#">知识产权</a></li>
+        </ul>
+        <div class="copyright">
+            &copy;2016 imooc.com All Rights Reseved
+        </div>
+    </div>
+    <!-- 右侧导航 -->
+    <ul class="nav-right">
+        <li class="nav-right-list">
+            <div class="nav-right-text">会员</div>
+            <a href="">
+                <img src="img/icon/13.png" class="nav-right-icon">
+            </a>
+        </li>
+        <li class="nav-right-list">
+            <div class="nav-right-text">购物车</div>
+            <a href="">
+                <img src="img/icon/14.png" class="nav-right-icon">
+            </a>
+        </li>
+        <li class="nav-right-list">
+            <div class="nav-right-text">收藏</div>
+            <a href="">
+                <img src="img/icon/15.png" class="nav-right-icon">
+            </a>
+        </li>
+        <li class="nav-right-list">
+            <div class="nav-right-text">我的消息</div>
+            <a href="">
+                <img src="img/icon/16.png" class="nav-right-icon">
+            </a>
+        </li>
+        <li class="nav-right-list">
+            <a href="#top">
+                <img src="img/icon/17.png" class="nav-right-icon">
+            </a>
+        </li>
+    </ul>
+    <!-- 左侧导航 -->
+    <ul class="nav-left dis-none">
+        <li class="nav-left-list cursor__pointer"><a href="#F1">1F</a></li>
+        <li class="nav-left-list cursor__pointer"><a href="#F2">2F</a></li>
+        <li class="nav-left-list cursor__pointer"><a href="#F3">3F</a></li>
+        <li class="nav-left-list cursor__pointer"><a href="#F4">4F</a></li>
+        <li class="nav-left-list cursor__pointer"><a href="#F5">5F</a></li>
+    </ul>
+</body>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+</html>
+
+
+
+
+
