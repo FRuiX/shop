@@ -178,8 +178,9 @@ body{
 	background-color: #f00;
 	color: #fff;
 }
-.logo{
+.login .logo{
 	text-align: center;
+	width:300px;
 }
 .logo .icon{
 	width: 32px;
@@ -772,7 +773,7 @@ body{
 	z-index: 3;
 	overflow: hidden;
 	transition-property:  width;
-	transition-duration: 2s; 
+	transition-duration: .5s;
 	transition-timing-function: ease;
 }
 .nav-right-list:hover .nav-right-text{
