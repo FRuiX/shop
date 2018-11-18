@@ -9,8 +9,16 @@ a{
 	text-decoration: none;
 	color:#333;
 }
+
+
 body{
 	width: 100%;
+}
+@media screen and (max-width: 1170px) {
+	body{
+		width:1200px;
+	}
+
 }
 .cursor__pointer{
     cursor: pointer;
@@ -43,7 +51,7 @@ body{
 .top{
   height: 45px;
   border-bottom: 1px solid #ccc;
-  width: 85%;
+  width: 1170px;
   margin:0 auto;
   line-height: 45px;
 }
@@ -217,7 +225,7 @@ body{
 
 /*logo 部分*/
 .logo{
-	width: 85%;
+	width: 1170px;
 	overflow: hidden;
 	margin: 0 auto;
 	text-align: center;
@@ -366,9 +374,10 @@ body{
 /*导航区 navigation*/
 .navigation{
 	height: 50px;
-	width: 100%;
+	width: 1170px;
 	background: #07111b;
 	color: #fff;
+	margin:0 auto;
 }
 .nav-li{
 	margin-left:22%;
@@ -385,13 +394,19 @@ body{
 }
 /*bannerq区*/
 .banner{
-	width:85%;
+	width:1170px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 	height: 515px;
 	margin:0 auto;
 	position: relative;
 }
 .classify{
-	width: 18%;
+	width: 184px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 	height: 570px;
 	background: rgba(255,0,0,0.5);
 	position: absolute;
@@ -464,9 +479,14 @@ body{
 }
 .sowing{
 	height: 100%;
-	width: 60%;
+	width: 728px;
+	float: left;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 	position: relative;
-	left: 18.5%;
+	left: 200px;
 	top:10px;
 }
 
@@ -481,10 +501,11 @@ body{
 }
 .img{
 	position: absolute;
+	width:100%;
 }
 .img img{
    height: 504px;
-   width: 728px;
+	width: 100%;
 }
 .pre,.pre2{
 	position: absolute;
@@ -523,12 +544,12 @@ body{
 }
 /*生活服务区*/
 .service{
-	position: absolute;
-	right: 0;
-	top:10px;
-	width: 20%;
-	height: 504px;
+	float: right;
+	width: 235px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	height: 504px;
 }
 .news{
 	padding:10px;
@@ -577,7 +598,7 @@ body{
 }
 /*楼层区*/
 .F1,.F2,.F3,.F4,.F5{
-	width: 85%;
+	width: 1170px;
 	margin:0 auto;
 	overflow: visible;
 	border-bottom: red 1px solid; 
@@ -640,7 +661,7 @@ body{
 	overflow: hidden;
 }
 .goods{
-	width: 85%;
+	width: 1170px;
 	margin:0 auto;
 }
 .f1-one{
@@ -660,9 +681,8 @@ body{
 }
 /*友情链接区*/
 .link-box{
-	margin-top: 50px;
 	padding-top:40px;
-	width: 85%;
+	width: 1170px;
 	height: 140px;
 	margin: 0 auto;
 	border-top: 1px solid #888;
@@ -722,7 +742,7 @@ body{
 	height: 205px;
 	background: #b7bbbf;
 	position: fixed;
-	right: 40px;
+	right: 20px;
 	top: 50%;
 	margin-top:-102px;
 }
